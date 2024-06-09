@@ -1,0 +1,16 @@
+body {
+  background-color: cornsilk;
+  text-align: center;
+  text-decoration-color: mediumaquamarine;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 100px;
+}
+h2 {
+  font-size: 20px;
+}
+div {
+  unicode-range: isolate;
+}
