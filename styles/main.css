@@ -1,14 +1,15 @@
-
 body {
   background-color: bisque;
-}.big-case {
+}
+.big-case {
   margin-left: 10%;
   margin-right: 10%;
 }
 h2 {
   text-align: right;
   color: white;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-right: 3%;
   padding-top: 5%;
   -ms-text-underline-position: under;
@@ -45,7 +46,7 @@ img {
 }
 header {
   text-align: center;
-  background: linear-gradient(to left,#99c4c8, #68a7ad);
+  background: linear-gradient(to left, #99c4c8, #68a7ad);
   height: 85vh;
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
 }
@@ -54,7 +55,7 @@ hr {
   background-color: goldenrod;
   border-color: goldenrod;
 }
-.lin-1{
+.lin-1 {
   height: 2px;
   background-color: whitesmoke;
   border-color: whitesmoke;
@@ -65,7 +66,6 @@ footer {
   text-align: center;
   color: white;
   padding-top: 5%;
-  ;
 }
 .footer {
   background-color: aquamarine;
@@ -76,14 +76,11 @@ footer {
   text-align: center;
 }
 @media only screen and (min-width: 920px) {
- 
 }
 @media only screen and (min-width: 919px) {
-
 }
 @media only screen and (min-width: 400px) {
   header {
     width: 100%;
-  
+  }
 }
-)
