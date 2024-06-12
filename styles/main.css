@@ -1,16 +1,88 @@
-body {
-  background-color: cornsilk;
-  text-align: center;
-  text-decoration-color: mediumaquamarine;
-}
 
-h1 {
-  font-weight: bold;
-  font-size: 100px;
+body {
+  background-color: bisque;
+}.big-case {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 h2 {
-  font-size: 20px;
+  text-align: right;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-right: 3%;
+  padding-top: 5%;
+  -ms-text-underline-position: under;
 }
-div {
-  unicode-range: isolate;
+h4 {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 1px;
+}
+p {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+img {
+  width: 300px;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+#container div {
+  height: 370px;
+  width: 335px;
+  margin: 60px;
+  text-align: justify;
+}
+header {
+  text-align: center;
+  background: linear-gradient(to left,#99c4c8, #68a7ad);
+  height: 85vh;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
+hr {
+  height: 2px;
+  background-color: goldenrod;
+  border-color: goldenrod;
+}
+.lin-1{
+  height: 2px;
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+}
+footer {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+  ;
+}
+.footer {
+  background-color: aquamarine;
+  position: flex;
+}
+.item p {
+  display: inline-block;
+  text-align: center;
+}
+@media only screen and (min-width: 920px) {
+ 
+}
+@media only screen and (min-width: 919px) {
+
+}
+@media only screen and (min-width: 400px) {
+  header {
+    width: 100%;
+  
 }
