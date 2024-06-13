@@ -62,6 +62,14 @@ h2 {
   margin-left: 50px;
   text-align: left;
 }
+#te-houtaewa {
+  color: black;
+  margin-left: 50px;
+  text-align: left;
+  width: 1000px;
+  height: auto;
+  margin-left: 0;
+}
 p {
   margin-left: 50px;
   text-align: justify;
@@ -99,3 +107,22 @@ footer {
   padding-left: 100px;
   padding-top: 0;
 }
+/* widescree display*/
+@media only scree and (min-width: 920px) {
+  .container {
+    align-content: flex-start;
+  }
+}
+@media only scree and (max-width: 919px) {
+  .container {
+    align-content: flex-start;
+  }
+}
+@media only scree and (max-width: 400px) {
+  .container {
+    align-content: flex-start;
+  }
+}
+/* widescree display*/
+
+/* widescree display*/
