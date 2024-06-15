@@ -1,0 +1,99 @@
+/*White smoke for all body*/
+body {
+  color: whitesmoke;
+  margin: 0px;
+  padding: 0px;
+}
+#blog-title {
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 120px;
+  height: 30px;
+  background-color: blueviolet;
+  text-align: center;
+  padding-top: 10px;
+  position: absolute;
+}
+#blog-label {
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 140px;
+  height: 80px;
+  background-color: #3540a6;
+  text-align: center;
+  padding-top: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img {
+  margin-left: 50px;
+  width: 400px;
+  height: auto;
+}
+h2 {
+  color: black;
+  text-align: left;
+}
+.menu-list {
+  background-color: green;
+  height: 80px;
+  margin: 10px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+ul li a {
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+ul li a:hover {
+  color: #ffd358;
+  text-decoration: underline;
+}
+.menu li {
+  float: left;
+  padding: 35px;
+}
+.menu li a {
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+  margin-left: 45%;
+}
+
+#conceptes {
+  padding-left: 100px;
+  padding-top: 0;
+}
+.container {
+  position: relative;
+  left: 35%;
+  top: 20%;
+  color: black;
+  width: 1000px;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*I can't seem to code the media query properly.*/
+/* widescree display*/
+/*@media only scree and (min-width: 920px) {
+  .container {
+    align-content: flex-start;
+  }
+}
+@media only scree and (max-width: 919px) {
+  .container {
+    align-content: flex-start;
+  }
+}
+@media only scree and (max-width: 400px) {
+  .container {
+    align-content: flex-start;
+  }
+}
+/* widescree display*/
+
+/* widescree display*/
