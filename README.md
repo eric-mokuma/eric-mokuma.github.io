@@ -1,1 +1,1 @@
-# eric-mokuma.github.io/blog/html-css.html
+# eric-mokuma.github.io
