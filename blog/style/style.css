@@ -28,12 +28,16 @@ body {
   background-color: black;
   padding: 100px;
   align-items: center;
-  width: 1000px;
+  width: 800px;
   height: auto;
   position: relative;
-  left: 19%;
+  left: 24%;
   text-align: justify;
   align-content: center;
+}
+ul {
+  padding-right: 13%;
+  text-align: justify;
 }
 p {
   color: white;
