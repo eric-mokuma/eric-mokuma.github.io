@@ -3,56 +3,127 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Emotional Intelligence</title>
-    <link href="../blog/style/main.css" rel="stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <!-- Font Awosome link -->
+    <script
+      src="https://kit.fontawesome.com/51c4e1fd24.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Candal&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <!--style link-->
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Foundations Reflection</title>
   </head>
   <body>
-    <div class="menu-list">
-      <!--links with IDs (#)that lead to paraphrases in HTML, CSS, and JavaScript-->
-      <nav>
-        <ul class="menu">
-          <li><a href="html-css.html">HTML</a></li>
-          <li><a href="css.html">CSS</a></li>
-          <li><a href="te-houtaewa-template.html">Te houtaewa</a></li>
-          <li><a href="learning-plan.html">Learning Plan</a></li>
-          <li><a href="identify-values.html">Identify values</a></li>
-          <li>
-            <a href="emotional-intelligence.html">Emotional Intelligence</a>
-          </li>
-          <li><a href="about-me.html">About me</a></li>
-        </ul>
-      </nav>
-      <div id="title-stick">
-        <div id="blog-title">Eric MOKUMA</div>
-        <div id="blog-label"><strong>BLOG</strong></div>
+    <header>
+      <div class="logo">
+        <h1 class="logo-text"><span>Eric</span>Blog</h1>
+      </div>
+      <i class="fa fa-bars menu-toggle"></i>
+      <ul class="nav">
+        <li><a href="html-css.html">HOME</a></li>
+        <li><a href="css.html">CSS</a></li>
+        <li><a href="javascript-dom.html">JAVASCRIPT & DOM</a></li>
+        <li><a href="problem-solving.html">PROBLEM SOLVING</a></li>
+        <li>
+          <a href="">
+            <i class="fa fa-use"></i>
+            Human Skills
+            <i class="fa-fa-chevron-down" style="font-size: 0.8em"></i>
+          </a>
+          <ul>
+            <li>
+              <a href="emotional-intelligence.html">Emotional intelligence</a>
+            </li>
+            <li><a href="identify-values.html">identify values</a></li>
+            <li><a href="learning-plan.html">Learning Plan</a></li>
+            <li>
+              <a href="te-houtaewa-template.html">Te houtaewa template</a>
+            </li>
+            <li><a href="neuroplasticity.html">neuroplasticity</a></li>
+            <li>
+              <a href="foundations-reflection.html">Foundations Reflection</a>
+            </li>
+            <li><a href="te-whare-tapa-wha.html">Te Whare Tapa Whā</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+    <div class="main-container">
+      <div class="container2">
+        <div class="blog-img">
+          <img src="images/growth.jpg" alt="Blog" />
+        </div>
+        <div class="blog-text">
+          <span>EQ (Emotional Intelligence)</span>
+          <p>
+            The <em>EQ (Emotional Intelligence)</em> is the <em>ability</em> of
+            an individual to perceive, comprehend, master, and express one's own
+            emotion, as well as to distinguish and generate an emotion in
+            another.
+          </p>
+          <br />
+          <h3>Abilities:</h3>
+          <ul>
+            <li>Empathy</li>
+            <li>Emotion control</li>
+            <li>Social skills</li>
+            <li>Self-awareness</li>
+            <li>Conflict resolution</li>
+          </ul>
+          <br />
+          <p>
+            <span
+              ><em>EQ</em> is associated to the interpersonal relationships,
+              leadership, teamwork It is especially significant because it
+              promotes more harmonious interpersonal relationships by improving
+              understanding of others' feelings and needs.</span
+            >
+          </p>
+        </div>
       </div>
     </div>
-    <div class="container">
-      <div>
-        <h2><u>Emotional Intelligence (EQ).</u></h2>
-      </div>
-      <div id="about-me">
-        <p>
-          The <em>EQ (Emotional Intelligence)</em> is the <em>ability</em> of an
-          individual to perceive, comprehend, master, and express one's own
-          emotion, as well as to distinguish and generate an emotion in another.
-        </p>
-        <br />
-        <h3>Abilities:</h3>
-        <ul>
-          <li>Empathy</li>
-          <li>Emotion control</li>
-          <li>Social skills</li>
-          <li>Self-awareness</li>
-          <li>Conflict resolution</li>
-        </ul>
-        <br />
-        <p>
-          <em>EQ</em> is associated to the interpersonal relationships,
-          leadership, teamwork It is especially significant because it promotes
-          more harmonious interpersonal relationships by improving understanding
-          of others' feelings and needs.
-        </p>
+    <!--Footer-->
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h1 class="logo-text"><span>Eric</span>Blog</h1>
+          <span><i class="fas fa-phone"></i> &nbsp; +64 2885 144 208</span>
+          <span
+            ><i class="fas fa-envelope"></i> &nbsp; mokumaeric@gmail.com</span
+          >
+        </div>
+        <div class="fooetr-section links">
+          <br /><br /><br /><br />
+          &copy; eric mokuma || E-multimedia
+        </div>
+
+        <div class="footer-section contact-form">
+          <h2>contact us</h2>
+          <br />
+          <form action="html-css.html" method="post">
+            <input
+              type="email"
+              name="email"
+              class="text-input contact-input"
+              placeholder="your email address..."
+            />
+            <textarea
+              name="message"
+              class="text-input contact-input contact-input"
+              placeholder="Your message..."
+            ></textarea>
+            <button type="submit" class="btn btn-big contact-btn">
+              <i class="fas fa-envelope"></i>
+              Send
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   </body>

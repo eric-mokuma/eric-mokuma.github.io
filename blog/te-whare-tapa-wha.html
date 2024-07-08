@@ -3,61 +3,154 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Te whare tape wha</title>
-    <link rel="stylesheet" href="../blog/style/neuro.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <!-- Font Awosome link -->
+    <script
+      src="https://kit.fontawesome.com/51c4e1fd24.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Candal&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <!--style link-->
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Te Whare Tapa Whā</title>
   </head>
   <body>
     <header>
-      <nav>
-        <a href="https://eric-mokuma.github.io/blog/html-css.html"
-          ><h2 id="retour">HOME PAGE</h2></a
-        >
-      </nav>
+      <div class="logo">
+        <h1 class="logo-text"><span>Eric</span>Blog</h1>
+      </div>
+      <i class="fa fa-bars menu-toggle"></i>
+      <ul class="nav">
+        <li><a href="html-css.html">HOME</a></li>
+        <li><a href="css.html">CSS</a></li>
+        <li><a href="javascript-dom.html">JAVASCRIPT & DOM</a></li>
+        <li><a href="problem-solving.html">PROBLEM SOLVING</a></li>
+        <li>
+          <a href="">
+            <i class="fa fa-use"></i>
+            Human Skills
+            <i class="fa-fa-chevron-down" style="font-size: 0.8em"></i>
+          </a>
+          <ul>
+            <li>
+              <a href="emotional-intelligence.html">Emotional intelligence</a>
+            </li>
+            <li><a href="identify-values.html">identify values</a></li>
+            <li><a href="learning-plan.html">Learning Plan</a></li>
+            <li>
+              <a href="te-houtaewa-template.html">Te houtaewa template</a>
+            </li>
+            <li><a href="neuroplasticity.html">neuroplasticity</a></li>
+            <li>
+              <a href="foundations-reflection.html">Foundations Reflection</a>
+            </li>
+            <li><a href="te-whare-tapa-wha.html">Te Whare Tapa Whā</a></li>
+          </ul>
+        </li>
+      </ul>
     </header>
-    <img src="../blog/images/Te Whare Tapa Whā.png" alt="Te Whare Tapa Whā" />
-      <table class="tableau-style">
-        <thead>
-          <h1>Te Whare Tapa Whā</h1>
-          <tr>
-            <th>Wall</th>
-            <th>Activities</th>
-          </tr>
-        </thead>
-        <tbody>
-            <tr>
-              <td>Taha Tinana (Physical Wellbeing)</td>
-              <td>I usually run three times a week and every Wednesday my sons and I go out to play football</td>
-            </tr>
-            <tr>
-              <td>Taha Whānau (Family Wellbeing)</td>
-              <td>To strengthen the family link, every Thursday at 7 p.m., we gather at the house of one of the 
-                extended family members for an exchange, lunch, and cup of tea or coffee.</td>
-            </tr>
-            <tr>
-              <td>Taha Hinengaro (Emotional and Mental Wellbeing)</td>
-              <td>We (my wife and I) enjoy a moment of encouragement as we reflect on our journey from present
-                 to future. We believe this benefits us and encourages us to continue.</td>
-            </tr>
-            <tr>
-              <td>Taha Wairua (Spiritual Wellbeing)</td>
-              <td>We (my family and I) believe in a strong God, therefore we have a moment of awe or thanksgiving
-                 to Him, and every Monday we have a Bible study group where we spend the evening studying and praying.</td>
-            </tr>
-            <tr>
-              <td>Whenua (Interconnections to the land and environment)</td>
-              <td>we (my friends and their families and my family and I) organize a forest hike once every 3 months.</td>
-            </tr>
-          </tbody>
-      </table>
-    <footer>
-      <p>
-        <i class="fa-brands fa-whatsapp"></i>
-      </p>
-      <p>
-        <i class="fa-brands fa-github-square"></i>
-      </p>
-      <p><i class="fa-brands fa-skype"></i></p>
+    <div class="main-container">
+      <div class="container2">
+        <div class="blog-img">
+          <img src="images/Te Whare Tapa Whā.png" alt="Blog" />
+        </div>
+        <div class="blog-text">
+          <span><h1>Te Whare Tapa Whā</h1></span>
+          <br />
+          <table>
+            <thead>
+              <tr>
+                <th>Wall</th>
+                <th>Activities</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Taha Tinana (Physical Wellbeing)</td>
+                <td>
+                  I usually run three times a week and every Wednesday my sons
+                  and I go out to play football
+                </td>
+              </tr>
+              <tr>
+                <td>Taha Whānau (Family Wellbeing)</td>
+                <td>
+                  To strengthen the family link, every Thursday at 7 p.m., we
+                  gather at the house of one of the extended family members for
+                  an exchange, lunch, and cup of tea or coffee.
+                </td>
+              </tr>
+              <tr>
+                <td>Taha Hinengaro (Emotional and Mental Wellbeing)</td>
+                <td>
+                  We (my wife and I) enjoy a moment of encouragement as we
+                  reflect on our journey from present to future. We believe this
+                  benefits us and encourages us to continue.
+                </td>
+              </tr>
+              <tr>
+                <td>Taha Wairua (Spiritual Wellbeing)</td>
+                <td>
+                  We (my family and I) believe in a strong God, therefore we
+                  have a moment of awe or thanksgiving to Him, and every Monday
+                  we have a Bible study group where we spend the evening
+                  studying and praying.
+                </td>
+              </tr>
+              <tr>
+                <td>Whenua (Interconnections to the land and environment)</td>
+                <td>
+                  we (my friends and their families and my family and I)
+                  organize a forest hike once every 3 months.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
-    </footer>
+    <!--Footer-->
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h1 class="logo-text"><span>Eric</span>Blog</h1>
+          <span><i class="fas fa-phone"></i> &nbsp; +64 2885 144 208</span>
+          <span
+            ><i class="fas fa-envelope"></i> &nbsp; mokumaeric@gmail.com</span
+          >
+        </div>
+        <div class="fooetr-section links">
+          <br /><br /><br /><br />
+          &copy; eric mokuma || E-multimedia
+        </div>
+
+        <div class="footer-section contact-form">
+          <h2>contact us</h2>
+          <br />
+          <form action="html-css.html" method="post">
+            <input
+              type="email"
+              name="email"
+              class="text-input contact-input"
+              placeholder="your email address..."
+            />
+            <textarea
+              name="message"
+              class="text-input contact-input contact-input"
+              placeholder="Your message..."
+            ></textarea>
+            <button type="submit" class="btn btn-big contact-btn">
+              <i class="fas fa-envelope"></i>
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

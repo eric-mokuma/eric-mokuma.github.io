@@ -1,57 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Te houtaewa</title>
-    <link href="../blog/style/main.css" rel="stylesheet"/>
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <!-- Font Awosome link -->
+    <script
+      src="https://kit.fontawesome.com/51c4e1fd24.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Candal&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <!--style link-->
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Foundations Reflection</title>
   </head>
   <body>
-    <div class="menu-list"><!--links with IDs (#)that lead to paraphrases in HTML, CSS, and JavaScript-->
-      <nav>
-        <ul class="menu">
-          <li><a href="html-css.html">HTML</a></li>
-          <li><a href="css.html">CSS</a></li>
-          <li><a href="te-houtaewa-template.html">Te houtaewa</a></li>
-          <li><a href="learning-plan.html">Learning Plan</a></li>
-          <li><a href="identify-values.html">identify values</a></li>
-          <li><a href="emotional-intelligence.html">Emotional Intelligence</a></li>
-          <li><a href="about-me.html">About me</a></li>          
-        </ul>
-      </nav>
-      <div id="title-stick">
-        <div id="blog-title">Eric MOKUMA</div>
-        <div id="blog-label"><strong>BLOG</strong></div>
+    <header>
+      <div class="logo">
+        <h1 class="logo-text"><span>Eric</span>Blog</h1>
+      </div>
+      <i class="fa fa-bars menu-toggle"></i>
+      <ul class="nav">
+        <li><a href="html-css.html">HOME</a></li>
+        <li><a href="css.html">CSS</a></li>
+        <li><a href="javascript-dom.html">JAVASCRIPT & DOM</a></li>
+        <li><a href="problem-solving.html">PROBLEM SOLVING</a></li>
+        <li>
+          <a href="">
+            <i class="fa fa-use"></i>
+            Human Skills
+            <i class="fa-fa-chevron-down" style="font-size: 0.8em"></i>
+          </a>
+          <ul>
+            <li>
+              <a href="emotional-intelligence.html">Emotional intelligence</a>
+            </li>
+            <li><a href="identify-values.html">identify values</a></li>
+            <li><a href="learning-plan.html">Learning Plan</a></li>
+            <li>
+              <a href="te-houtaewa-template.html">Te houtaewa template</a>
+            </li>
+            <li><a href="neuroplasticity.html">neuroplasticity</a></li>
+            <li>
+              <a href="foundations-reflection.html">Foundations Reflection</a>
+            </li>
+            <li><a href="te-whare-tapa-wha.html">Te Whare Tapa Whā</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+    <div class="main-container">
+      <div class="container2">
+        <div class="blog-img">
+          <img src="images/growth.jpg" alt="Blog" />
+        </div>
+        <div class="blog-text">
+          <span
+            ><h2><u>Te houtaewa template</u></h2></span
+          >
+          <em><p><strong>The Story of Te Houtaewa (PAGE heading)</em>E kore e mau i a koe, he wae kai pakiaka.
+            <em> A foot accustomed to running over roots makes the speediest runner.</em>(Optional SUB title)</p></strong>
+          <strong><p>10 November 2010</p></strong>
+          <p>
+            Te Houtaewa was the fastest runner of his day and played many pranks on
+            his peoples enemies. One morning his mother wanted kumara for the hangi
+            (earth oven) and asked Te Houtaewa to go to the gardens at Te Kao, a short
+            distance away. He agreed to fetch the kumara and told his mother to
+            prepare the hangi.
+          </p>
+          <p>
+            Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara as
+            he wanted to annoy some Te Rarawa people who lived there. Carrying two
+            large baskets for the kumara, he ran like the wind, completing the journey
+            over the hard sands of Te Oneroa a Tohe (Ninety Mile Beach) in the few
+            hours it takes a good hangi to heat up properly. On reaching Ahipara, he
+            went straight to the people's kumara pataka (storehouse for the sweet
+            potatoes) situated at the foot of the hill Whangatauatia.
+          </p>
+          <p>
+            While Te Houtaewa was filling his baskets with kumara he was spotted
+            stealing the kai (food). He was immediately recognised.
+          </p>
+        </div>
       </div>
     </div>
-    <div class="container">
-      <div>
-        <h2><u>Te houtaewa</u></h2>
+    <!--Footer-->
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h1 class="logo-text"><span>Eric</span>Blog</h1>
+          <span><i class="fas fa-phone"></i> &nbsp; +64 2885 144 208</span>
+          <span
+            ><i class="fas fa-envelope"></i> &nbsp; mokumaeric@gmail.com</span
+          >
+        </div>
+        <div class="fooetr-section links">
+          <br /><br /><br /><br />
+          &copy; eric mokuma || E-multimedia
+        </div>
+
+        <div class="footer-section contact-form">
+          <h2>contact us</h2>
+          <br />
+          <form action="html-css.html" method="post">
+            <input
+              type="email"
+              name="email"
+              class="text-input contact-input"
+              placeholder="your email address..."
+            />
+            <textarea
+              name="message"
+              class="text-input contact-input contact-input"
+              placeholder="Your message..."
+            ></textarea>
+            <button type="submit" class="btn btn-big contact-btn">
+              <i class="fas fa-envelope"></i>
+              Send
+            </button>
+          </form>
+        </div>
       </div>
-      <div id="te-houtaewa"><em><p><strong>The Story of Te Houtaewa (PAGE heading)</em>E kore e mau i a koe, he wae kai pakiaka.
-          <em> A foot accustomed to running over roots makes the speediest runner.</em>(Optional SUB title)</p></strong>
-        <strong><p>10 November 2010</p></strong>
-        <p>
-          Te Houtaewa was the fastest runner of his day and played many pranks on
-          his peoples enemies. One morning his mother wanted kumara for the hangi
-          (earth oven) and asked Te Houtaewa to go to the gardens at Te Kao, a short
-          distance away. He agreed to fetch the kumara and told his mother to
-          prepare the hangi.
-        </p>
-        <p>
-          Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara as
-          he wanted to annoy some Te Rarawa people who lived there. Carrying two
-          large baskets for the kumara, he ran like the wind, completing the journey
-          over the hard sands of Te Oneroa a Tohe (Ninety Mile Beach) in the few
-          hours it takes a good hangi to heat up properly. On reaching Ahipara, he
-          went straight to the people's kumara pataka (storehouse for the sweet
-          potatoes) situated at the foot of the hill Whangatauatia.
-        </p>
-        <p>
-          While Te Houtaewa was filling his baskets with kumara he was spotted
-          stealing the kai (food). He was immediately recognised.
-        </p>
-        <!-- this is a comment. -->
-      </div>
+    </div>
   </body>
 </html>
